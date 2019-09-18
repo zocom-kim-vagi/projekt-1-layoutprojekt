@@ -1,0 +1,314 @@
+body {
+    background: #eee;
+    font-family: "Merriweather", serif;
+}
+
+/* Designe av hela bodyn klart! */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+.box1 {
+    display: grid;
+    height: 400px;
+    width: 800px;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 20%;
+}
+
+.box2 {
+    background: skyblue;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+
+.box2 img {
+    width: 200px;
+    align-self: flex-end;
+    margin-right: 10px;
+    
+}
+
+.box2 button {
+    border-radius: 20px;
+    width: 120px; 
+    height: 40px;
+    margin-left: 80px;
+    margin-bottom: -100px;
+    background: white;
+}
+
+.heading {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 50px;
+    align-self: center;
+    text-align: left;
+
+}
+
+.box2 p span {
+    color: white;
+}
+
+.box3 {
+    background: orangered;
+    grid-row: 1/3;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box3 h1 {
+    color: white;
+    margin-top: 30px;   
+}
+
+.box5 {
+    background: orange;
+    height: 200px;
+    width: 400px;
+    grid-row: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box5 h1 {
+    color: white;
+    margin-top: 30px;
+}
+
+/*Första delen klart nu!*/
+
+/*Navbar*/
+
+.nav-bar {
+    width: 800px;
+    height: 40px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;   
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar ul a {
+    display: flex;
+    justify-content: space-between;
+    margin: 33px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #999
+}
+
+.nav-bar ul a:hover {
+    color: black;
+}
+
+/*Tredje delen börjar!*/
+
+.storaboxen {
+    height: 1000px;
+    width: 800px;
+    background: linear-gradient(rgb(175, 175, 175) 50%, rgb(228, 172, 20) 50%);
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading2 h1 {
+margin-left: 10%;
+margin-top: 10%;
+color:white;
+text-align: left;
+width: 250px;
+}
+
+.heading2 button {
+    border-radius: 20px;
+    width: 120px; 
+    height: 40px;
+    background: white;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.heading3 p {
+    margin-left: 50%;
+    margin-top: -29.9%;
+    line-height: 2;
+    font-size: 0.88rem;
+    color: #333;
+    width: 350px;
+}
+
+
+.bildernasbox {
+    display: flex;
+    margin-bottom: 200px;
+    width: 600px;
+    height: 260px;
+    margin-left: 12.5%   
+}
+
+.innerboxleft {
+    width: 250px;
+    height: 260px;
+    border-radius: 8px;
+    background: white;
+   
+}
+
+.imgbox {
+  padding-top: 10px;
+  margin: -20px 10px 0 10px;
+  border-radius: 8px;
+}
+
+.skyblue {
+    background: skyblue;
+}
+
+.imgbox img{
+    width: 80px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.innerboxleft h1 {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.innerboxleft p {
+    width: 180px;
+    font-weight: 100px;
+    margin-left: 6%;
+    width: 195px;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+.innerboxmiddle {
+    width: 250px;
+    height: 260px;
+    border-radius: 8px;
+    background: white;
+    margin-left: 5%;
+}
+
+.imgbox img{
+    width: 80px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.orange {
+    background: orange;
+
+}
+
+.innerboxmiddle h1 {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.innerboxmiddle p {
+    width: 180px;
+    font-weight: 100px;
+    margin-left: 6%;
+    width: 195px;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+
+
+.innerboxright {
+    width: 250px;
+    height: 260px;
+    border-radius: 8px;
+    background: white;
+    margin-left: 5%;
+}
+
+
+.imgbox img{
+    width: 80px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.orangered {
+    background: orangered;
+}
+
+.innerboxright h1 {
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.innerboxright p {
+    width: 180px;
+    font-weight: 100px;
+    margin-left: 6%;
+    width: 195px;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+/*3 bilderna klara!*/
+
+/*h1 och p innan nya display:grid*/
+
+
+
+    .sistadel1 {
+        margin-bottom: 100px;
+        text-align: center;
+        width: 200px;
+        margin-left: 40%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
